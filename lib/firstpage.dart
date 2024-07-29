@@ -22,6 +22,7 @@ class FirstContainerWidget extends StatelessWidget {
               fontWeight: FontWeight.bold,
             )),
         const SizedBox(height: 30),
+        const SizedBox(height: 30),
         OutlinedButton.icon(
             onPressed: () {
               startQuiz();
